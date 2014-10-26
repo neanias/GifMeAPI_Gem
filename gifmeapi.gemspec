@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'gifmeapi/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "gifmeapi"
+  spec.name          = "GifMeAPI"
   spec.version       = Gifmeapi::VERSION
   spec.authors       = ["William Mathewson"]
   spec.email         = ["wncmathewson@me.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{A gem that wraps the GifMe API}
+  spec.description   = %q{}
+  spec.homepage      = "https://github.com/neanias/GifMeAPI_gem"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
