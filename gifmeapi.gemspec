@@ -5,7 +5,7 @@ require 'gifmeapi/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "GifMeAPI"
-  spec.version       = Gifmeapi::VERSION
+  spec.version       = GifMeAPI::VERSION
   spec.authors       = ["William Mathewson"]
   spec.email         = ["wncmathewson@me.com"]
   spec.summary       = %q{A gem that wraps the GifMe API}
@@ -21,4 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
+
+  spec.add_dependency "httparty", "~> 0.13.1"
 end
