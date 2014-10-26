@@ -1,6 +1,6 @@
 # Gifmeapi
 
-A gem to wrap the [GifMe](http://gifme.io) API
+A gem to wrap the [GifMe](http://gifme.io) [API](https://github.com/GifMe/GifMeApi)
 
 ## Installation
 
