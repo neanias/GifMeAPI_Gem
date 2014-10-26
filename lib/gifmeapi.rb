@@ -1,5 +1,5 @@
 require "gifmeapi/version"
 
-module Gifmeapi
+module GifMeAPI
   # Your code goes here...
 end
