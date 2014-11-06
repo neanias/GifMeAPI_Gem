@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Gifmeapi do
+describe GifMeAPI do
   it 'has a version number' do
-    expect(Gifmeapi::VERSION).not_to be nil
+    expect(GifMeAPI::VERSION).not_to be nil
   end
 
   it 'does something useful' do
